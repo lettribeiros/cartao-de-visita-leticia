@@ -5,13 +5,13 @@
 }
 :root{
     --primary-color: #E6E6E6;
-    --highlight-color: #9e78ee;
-    --body-color: #0a1527;
-    --body-color-secundary: #020a17;
+    --highlight-color: #b86b77;
+    --body-color: #09143c;
+    --body-color-secundary: #b86b77;
 
     --icon-color: #e6e6e6;
 
-    --header-background-color: #06101f;
+    --header-background-color: #09143c;
 
     --font-highlight: "Roboto", sans-serif;
     --font-defaut: "Montserrat", sans-serif;
@@ -20,7 +20,7 @@
     --font-size-title-h3: 1.3rem;
     --font-size-small: 1rem;
     --font-size-body: 1.4rem;
-    --font-color: #e6e6e6;
+    --font-color: #ffffff;
 
 }
 html{
@@ -122,7 +122,7 @@ header a{
     height: 65px;
     background-color: transparent;
     border: 1px solid transparent;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 1.1rem;
     font-family: var(--font-defaut);
     font-weight: 600;
@@ -134,7 +134,7 @@ header a{
     inset: 0;
     border-radius: 20px; /*1*/
     border: 6px solid transparent; /*2*/
-    background: linear-gradient(45deg,#EB1E9C,#2B56FF,#EB1E9C,#2B56FF) border-box;
+    background: linear-gradient(45deg,#b86b77,#f4c8c8,#b86b77,#f4c8c8) border-box;
     background-size: 300%; 
     -webkit-mask: /*3*/
     linear-gradient(rgb(255, 255, 255) 0 0) padding-box, 
